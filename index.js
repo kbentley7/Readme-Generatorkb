@@ -33,28 +33,26 @@ inquirer.prompt([
             name: "description",
             message: "Enter A Descrition For Your Project"
           },
-          // User's text input taken here
-        type: "input",
-        name: "usage",
-        message: "Enter Usage Info"
-      },
-      {
-          // User's text input taken here
-          type: "input",
-          name: "contribution",
-          message: "Enter Your Project Contribution Guidelines"
-      },
-        // User's text input taken here
-         type: "input",
-         name: "usage",
-         message: "Enter Usage Info"
-       },
-       {
-        // User's text input taken here
-          type: "input",
-          name: "contribution",
-          message: "Enter Your Project Contribution Guidelines"
-      },
+          {
+            // User's text input taken here
+            type: "input",
+            name: "installation",
+            message: "Enter Your Projects Installation Instructions"
+          },
+        
+          {
+            // User's text input taken here
+            type: "input",
+            name: "usage",
+            message: "Enter Usage Info"
+          },
+          {
+            // Takes user text input
+              type: "input",
+              name: "contribution",
+              message: "Enter Your Project Contribution Guidelines"
+          },
+       
       {
         // User's text input taken here
         type: "input",
@@ -87,3 +85,13 @@ inquirer.prompt([
               "the Unilicense"
             ]
         }
+        // Where the user input is stored (data)
+    ]).then(function(data) {
+        // message for the user
+        console.log("Generating Markdown...");
+        // calling function writeToFile(fileName, data) using "README.md" and generateMarkdown(data) parameters & uses a spread opperater to spread data. 
+        writeToFile("README.md", generateMarkdown({...data}));  
+  });
+// function call to initialize program
+init()
+  
