@@ -1,7 +1,7 @@
 const inquirer = require ("inquirer");
 const fs = require ("fs");
 const path = require ("path");
-var generateMarkdown = require('./utilities/generateMarkdown.js');
+var generateMarkdown = require('./utilities/generateMarkdown.js.js.js');
 
 function writeToFile(filename, data) {
     fs.writerFileSync(path.join(process.cwd(),fileName), data);
