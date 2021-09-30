@@ -47,7 +47,7 @@ inquirer.prompt([
             message: "Enter Usage Info"
           },
           {
-            // Takes user text input
+            // User's text input taken here
               type: "input",
               name: "contribution",
               message: "Enter Your Project Contribution Guidelines"
