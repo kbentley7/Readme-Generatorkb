@@ -9,42 +9,42 @@ function writeToFile(filename, data) {
 
 inquirer.prompt([
     {
-           // User's text input
+        // User's text input taken here
       type: "input",
       name: "username",
       message: "Enter Your Github Username"
     },
 
     {
-            // User's text input
+        // User's text input taken here
         type: "input",
         name: "email",
         message: "Enter Your Email Address"
       },
       {
-            // user's text input
+         // User's text input taken here
         type: "input",
         name: "title",
         message: "What's Your Projects Name?"
         },
         {
-            // User's text input
+            // User's text input taken here
             type: "input",
             name: "description",
             message: "Enter A Descrition For Your Project"
           },
-            // User's text input
+          // User's text input taken here
         type: "input",
         name: "usage",
         message: "Enter Usage Info"
       },
       {
-            // User's text input
+          // User's text input taken here
           type: "input",
           name: "contribution",
           message: "Enter Your Project Contribution Guidelines"
       },
-            // User's text input taken here
+        // User's text input taken here
          type: "input",
          name: "usage",
          message: "Enter Usage Info"
@@ -67,3 +67,23 @@ inquirer.prompt([
         name: "tests",
         message: "Enter Test Instructions"
     },
+    { 
+        // Takes user input via checkbox using spacebar to add choice and up and down keys to move down list
+          type: "checkbox",
+          message: "Licensing Options",
+          name: "license",
+          choices: [
+              "None",
+              "Apache2.0",
+              "GNU Public v3.0",
+              "MIT",
+              "Boost Software 1.0",
+              "Creative Commons Zero v1.0 Universal",
+              "Eclipse Public 2.0",
+              "GNU Affero General Public v3.0",
+              "GNU General Public v2.0",
+              "GNU Lesser General Public v2.1",
+              "Mozilla Public 2.0",
+              "the Unilicense"
+            ]
+        }
