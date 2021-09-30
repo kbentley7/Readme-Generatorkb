@@ -1,6 +1,6 @@
-# Readme Generator
+# readme generator
 ----
-<a href="https://img.shields.io/badge/License-None-brightgreen"><img src="https://img.shields.io/badge/License-None-brightgreen"></a>
+<a href="https://img.shields.io/badge/License-MIT-brightgreen"><img src="https://img.shields.io/badge/License-undefined-brightgreen"></a>
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -9,11 +9,11 @@
 - [Test Instructions](#test-instructions)
 - [Contact Information](#contact-information)
 ### Description
-Create a Readme Generator
+using node.js and inquirer
 ### Installation
-Using Node.js and inquirer
+to generate readme
 ### Usage
-To generate readme 
+none
 ### Contribution
 none
 ### Test-Instructions
