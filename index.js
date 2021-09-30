@@ -27,3 +27,25 @@ inquirer.prompt([
         name: "title",
         message: "What's Your Projects Name?"
         },
+        {
+            // User's text input
+            type: "input",
+            name: "description",
+            message: "Enter A Descrition For Your Project"
+          },
+           // Takes user text input
+        type: "input",
+        name: "usage",
+        message: "Enter Usage Info"
+      },
+      {
+        // Takes user text input
+          type: "input",
+          name: "contribution",
+          message: "Enter Your Project Contribution Guidelines"
+      },
+         // Takes user text input
+         type: "input",
+         name: "usage",
+         message: "Enter Usage Info"
+       },
