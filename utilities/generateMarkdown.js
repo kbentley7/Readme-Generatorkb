@@ -92,6 +92,6 @@ inquirer.prompt([
         // calling function writeToFile(fileName, data) using "README.md" and generateMarkdown(data) parameters & uses a spread opperater to spread data. 
         writeToFile("README.md", generateMarkdown({...data}));  
   });
-// function call to initialize program
+        // function call to initialize program
 init()
   
