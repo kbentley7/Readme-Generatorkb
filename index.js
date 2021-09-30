@@ -16,8 +16,14 @@ inquirer.prompt([
     },
 
     {
-        // Takes user text input
+        // user's text input
         type: "input",
         name: "email",
         message: "Enter Your Email Address"
       },
+      {
+        // user's text input
+        type: "input",
+        name: "title",
+        message: "What's Your Projects Name?"
+        },
