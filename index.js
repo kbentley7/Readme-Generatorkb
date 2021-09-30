@@ -44,26 +44,26 @@ inquirer.prompt([
           name: "contribution",
           message: "Enter Your Project Contribution Guidelines"
       },
-            // User's text input
+            // User's text input taken here
          type: "input",
          name: "usage",
          message: "Enter Usage Info"
        },
        {
-        // User's text input
+        // User's text input taken here
           type: "input",
           name: "contribution",
           message: "Enter Your Project Contribution Guidelines"
       },
       {
-        // User's text input
+        // User's text input taken here
         type: "input",
         name: "usage",
         message: "Enter Usage Info"
       },
       {
-        // User's text input
-          type: "input",
-          name: "contribution",
-          message: "Enter Your Project Contribution Guidelines"
-      },
+        // User's text input taken here
+        type: "input",
+        name: "tests",
+        message: "Enter Test Instructions"
+    },
