@@ -9,20 +9,20 @@ function writeToFile(filename, data) {
 
 inquirer.prompt([
     {
-
+           // User's text input
       type: "input",
       name: "username",
       message: "Enter Your Github Username"
     },
 
     {
-        // user's text input
+            // User's text input
         type: "input",
         name: "email",
         message: "Enter Your Email Address"
       },
       {
-        // user's text input
+            // user's text input
         type: "input",
         name: "title",
         message: "What's Your Projects Name?"
@@ -33,19 +33,37 @@ inquirer.prompt([
             name: "description",
             message: "Enter A Descrition For Your Project"
           },
-           // Takes user text input
+            // User's text input
         type: "input",
         name: "usage",
         message: "Enter Usage Info"
       },
       {
-        // Takes user text input
+            // User's text input
           type: "input",
           name: "contribution",
           message: "Enter Your Project Contribution Guidelines"
       },
-         // Takes user text input
+            // User's text input
          type: "input",
          name: "usage",
          message: "Enter Usage Info"
        },
+       {
+        // User's text input
+          type: "input",
+          name: "contribution",
+          message: "Enter Your Project Contribution Guidelines"
+      },
+      {
+        // User's text input
+        type: "input",
+        name: "usage",
+        message: "Enter Usage Info"
+      },
+      {
+        // User's text input
+          type: "input",
+          name: "contribution",
+          message: "Enter Your Project Contribution Guidelines"
+      },
