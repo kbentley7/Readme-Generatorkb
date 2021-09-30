@@ -5,7 +5,7 @@ const fs = require("fs");
 // creating variable and using require to use npm's path//doesn't need install//part of npm
 const path = require("path");
 // creating variable and requiring generateMarkdown.js 
-var generateMarkdown = require("./utils/generateMarkdown.js");
+var generateMarkdown = require("./utils/generateMarkdown");
     
 // function to write README file takes in fileName and user data parameters
 function writeToFile(fileName, data) {
