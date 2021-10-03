@@ -1,15 +1,24 @@
-
 {
-    "name": "static-site",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "inquirer": "^6.3.1"
-    }
-  }
+  "name": "Readme-Generatorkb",
+  "version": "1.0.0",
+  "description": "---- <a href=\"https://img.shields.io/badge/License-MIT-brightgreen\"><img src=\"https://img.shields.io/badge/License-undefined-brightgreen\"></a> ## Table of Contents - [Description](#description) - [Installation](#installation) - [Usage](#usage) - [Contribution](#contribution) - [Test Instructions](#test-instructions) - [Contact Information](#contact-information)",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbentley7/Readme-Generatorkb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbentley7/Readme-Generatorkb/issues"
+  },
+  "homepage": "https://github.com/kbentley7/Readme-Generatorkb#readme"
+}
