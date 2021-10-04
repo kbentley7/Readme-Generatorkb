@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   // returns inquirer prompted data. Writing in markdown inside backticks and using data to personalize markdown page.
   return `# ${data.title}
 ----
-<a href="https://img.shields.io/badge/License-${data.license[0]}-brightgreen"><img src="https://img.shields.io/badge/License-${data.license[0]}-brightgreen"></a>
+<a href="https://img.shields.io/badge/License-${data.license}-brightgreen"><img src="https://img.shields.io/badge/License-${data.license[0]}-brightgreen"></a>
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
